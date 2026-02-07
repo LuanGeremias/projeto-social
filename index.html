@@ -18,23 +18,40 @@
         }
 
         div#logos {
-            width: 0px;
+            position: absolute;
+            top: 1%;
+            left: 90%;
+            width: 5px;
         }
 
         .logo{
             width: 50px;
-            text-align: end;
             border-radius: 50px;
+        }
+        
+        ul{
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        iframe{
+            display: block;
+            margin: auto;
+            
         }
     </style>
 </head>
 <body>
     <div id="celular">
         <img src="imagens/frame-iphone.png" alt="Celular">
+        <iframe src="paginas/pag001.html"></iframe>
     </div>
     <div id="logos">
-        <img src="imagens/logo-github.jpg" alt="GitHub" class="logo">
-        <img src="imagens/logo-instagram.jpg" alt="Instagram" class="logo">
+        <ul>
+            <li><a href="#"><img src="imagens/logo-github.jpg" alt="GitHub" class="logo"></a>
+            <li><a href="#"><img src="imagens/logo-instagram.jpg" alt="Instagram" class="logo"></a>
+        </ul>
     </div>
 </body>
 </html>
