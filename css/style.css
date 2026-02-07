@@ -1,6 +1,4 @@
-@charset "UTF-8"
-
-* {
+*{
     margin: 0px;
     padding: 0px;
 }
@@ -30,4 +28,12 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+iframe#tela{
+    position: relative;
+    top: 13%;
+    left: 7%;
+    width: 267px;
+    height: 470px;
 }
